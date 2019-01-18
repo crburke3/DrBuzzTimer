@@ -15,6 +15,10 @@ class TimerViewController: UIViewController {
     
     let animArray = ["Snoop", "Napolean", "WillSmith", "Stripper", "pinklady"]
     
+    
+    @IBOutlet var minView: UIView!
+    @IBOutlet var secView: UIView!
+    
     @IBOutlet var minutesLbl: UILabel!
     @IBOutlet var secondsLbl: UILabel!
     @IBOutlet var timerButton: UIButton!
@@ -32,6 +36,10 @@ class TimerViewController: UIViewController {
         super.viewDidLoad()
         currMin = startMin
         currSec = startSec
+        minView.layer.borderWidth = 1
+        minView.layer.borderColor = UIColor.white.cgColor
+        secView.layer.borderWidth = 1
+        secView.layer.borderColor = UIColor.white.cgColor
     }
     
     @IBAction func StartTimer(_ sender: Any) {
