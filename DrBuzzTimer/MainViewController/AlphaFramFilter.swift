@@ -17,7 +17,7 @@ kernel vec4 alphaFrame(__sample s, __sample m) {
 }
 """)
     }()
-    
+    //
     var inputImage: CIImage?
     var maskImage: CIImage?
     
