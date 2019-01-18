@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Timer View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="TimerViewController" customModule="DrBuzzTimer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiscoBackground" translatesAutoresizingMaskIntoConstraints="NO" id="9sc-Tb-Lto">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5SA-vV-nBi">
+                                <rect key="frame" x="92" y="440" width="191" height="59"/>
+                                <color key="backgroundColor" red="0.95328691710000002" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="5SA-vV-nBi" secondAttribute="height" multiplier="191:59" id="G7d-xT-ebP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Start Timer"/>
+                                <connections>
+                                    <action selector="StartTimer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BeM-ih-J3v"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e7x-6L-kUK" userLabel="Minutes">
+                                <rect key="frame" x="92" y="339" width="84" height="74"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="e7x-6L-kUK" secondAttribute="height" multiplier="42:37" id="ae8-6u-L8y"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NotoSansChakma-Regular" family="Noto Sans Chakma" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YeP-nX-iam" userLabel="Seconds">
+                                <rect key="frame" x="199" y="339" width="84" height="74"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="YeP-nX-iam" secondAttribute="height" multiplier="42:37" id="Vn3-yh-J4M"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NotoSansChakma-Regular" family="Noto Sans Chakma" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DrBuzzLogo" translatesAutoresizingMaskIntoConstraints="NO" id="w81-Rv-sHq">
+                                <rect key="frame" x="21" y="7" width="324" height="324"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="w81-Rv-sHq" secondAttribute="height" multiplier="1:1" id="TUd-5o-yqk"/>
+                                    <constraint firstAttribute="height" constant="324" id="zhU-7M-ukO"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5SA-vV-nBi" secondAttribute="trailing" constant="92" id="2wy-0S-4h7"/>
+                            <constraint firstItem="5SA-vV-nBi" firstAttribute="top" secondItem="YeP-nX-iam" secondAttribute="bottom" constant="27" id="3nH-it-LGg"/>
+                            <constraint firstItem="w81-Rv-sHq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="21" id="ALA-9T-wVf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YeP-nX-iam" secondAttribute="trailing" constant="92" id="K4n-jL-YK3"/>
+                            <constraint firstItem="YeP-nX-iam" firstAttribute="top" secondItem="w81-Rv-sHq" secondAttribute="bottom" constant="8" id="LZd-K5-OX0"/>
+                            <constraint firstItem="e7x-6L-kUK" firstAttribute="top" secondItem="w81-Rv-sHq" secondAttribute="bottom" constant="8" id="OoI-0B-4gi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="w81-Rv-sHq" secondAttribute="trailing" constant="30" id="PfA-0y-eDo"/>
+                            <constraint firstItem="w81-Rv-sHq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-13" id="Pt3-58-QRm"/>
+                            <constraint firstAttribute="trailing" secondItem="9sc-Tb-Lto" secondAttribute="trailing" id="SwL-YB-nwS"/>
+                            <constraint firstItem="9sc-Tb-Lto" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="ajt-fm-CII"/>
+                            <constraint firstItem="9sc-Tb-Lto" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="dE4-Zd-H5D"/>
+                            <constraint firstItem="e7x-6L-kUK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="92" id="eRa-wg-4gl"/>
+                            <constraint firstItem="9sc-Tb-Lto" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="edT-Vd-ks4"/>
+                            <constraint firstItem="5SA-vV-nBi" firstAttribute="top" secondItem="e7x-6L-kUK" secondAttribute="bottom" constant="27" id="fhB-QS-ZwX"/>
+                            <constraint firstItem="YeP-nX-iam" firstAttribute="leading" secondItem="e7x-6L-kUK" secondAttribute="trailing" constant="23" id="qvf-jv-9pw"/>
+                            <constraint firstItem="5SA-vV-nBi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="92" id="sfv-4D-bPJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5SA-vV-nBi" secondAttribute="bottom" constant="168" id="xxQ-Nv-m4F"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="drBuzzImage" destination="w81-Rv-sHq" id="a3e-RX-fUB"/>
+                        <outlet property="minutesLbl" destination="e7x-6L-kUK" id="gXM-qA-H9A"/>
+                        <outlet property="secondsLbl" destination="YeP-nX-iam" id="bKF-Cj-7sD"/>
+                        <outlet property="timerButton" destination="5SA-vV-nBi" id="9Kf-Fn-8LU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="106.59670164917542"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="DiscoBackground" width="780" height="1200"/>
+        <image name="DrBuzzLogo" width="1000" height="1000"/>
+    </resources>
+</document>
