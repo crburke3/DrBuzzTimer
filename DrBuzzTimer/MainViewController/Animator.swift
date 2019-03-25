@@ -37,6 +37,11 @@ extension TimerViewController{
         UIView.animate(withDuration: 1.0, animations: {
             myView.alpha = 1
         })
+        if let files = try? FileManager.default.contentsOfDirectory(atPath: Bundle.main.bundlePath ){
+            for file in files {
+                print(file)
+            }
+        }
         let videoUrl = Bundle.main.url(forResource: name, withExtension: "mp4")!
         let playerItem = AVPlayerItem(url: videoUrl)
         let player = AVPlayer(playerItem: playerItem)

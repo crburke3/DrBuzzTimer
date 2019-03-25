@@ -14,9 +14,6 @@
 		FA30DBA621D9C97300A85EA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA30DBA521D9C97300A85EA1 /* Assets.xcassets */; };
 		FA30DBA921D9C97300A85EA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA30DBA721D9C97300A85EA1 /* LaunchScreen.storyboard */; };
 		FA30DBB621D9D29600A85EA1 /* AlphaFramFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA30DBB521D9D29600A85EA1 /* AlphaFramFilter.swift */; };
-		FA3DA92521E2E171003CD918 /* Snoop.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FA3DA92421E2E171003CD918 /* Snoop.mp4 */; };
-		FA3DA92721E2F3C6003CD918 /* Napolean.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FA3DA92621E2F3C6003CD918 /* Napolean.mp4 */; };
-		FA3DA92921E2F51B003CD918 /* WillSmith.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FA3DA92821E2F51B003CD918 /* WillSmith.mp4 */; };
 		FA3DA92B21E2F5E0003CD918 /* Stripper.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FA3DA92A21E2F5E0003CD918 /* Stripper.mp4 */; };
 		FA3DA93121E2F77C003CD918 /* pinklady.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FA3DA93021E2F77C003CD918 /* pinklady.mp4 */; };
 /* End PBXBuildFile section */
@@ -44,11 +41,11 @@
 		FA30DBA821D9C97300A85EA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA30DBAA21D9C97300A85EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA30DBB521D9D29600A85EA1 /* AlphaFramFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaFramFilter.swift; sourceTree = "<group>"; };
-		FA3DA92421E2E171003CD918 /* Snoop.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Snoop.mp4; sourceTree = "<group>"; };
-		FA3DA92621E2F3C6003CD918 /* Napolean.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Napolean.mp4; sourceTree = "<group>"; };
-		FA3DA92821E2F51B003CD918 /* WillSmith.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = WillSmith.mp4; sourceTree = "<group>"; };
 		FA3DA92A21E2F5E0003CD918 /* Stripper.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Stripper.mp4; sourceTree = "<group>"; };
 		FA3DA93021E2F77C003CD918 /* pinklady.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pinklady.mp4; sourceTree = "<group>"; };
+		FAE7CD6A22497A9400A2DA30 /* loopy.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = loopy.mp4; sourceTree = "<group>"; };
+		FAE7CD6B22497A9D00A2DA30 /* hula.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = hula.mp4; sourceTree = "<group>"; };
+		FAE7CD6E22497AB200A2DA30 /* trippy.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = trippy.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +74,9 @@
 			children = (
 				FA3DA93021E2F77C003CD918 /* pinklady.mp4 */,
 				FA3DA92A21E2F5E0003CD918 /* Stripper.mp4 */,
-				FA3DA92821E2F51B003CD918 /* WillSmith.mp4 */,
-				FA3DA92621E2F3C6003CD918 /* Napolean.mp4 */,
-				FA3DA92421E2E171003CD918 /* Snoop.mp4 */,
+				FAE7CD6A22497A9400A2DA30 /* loopy.mp4 */,
+				FAE7CD6B22497A9D00A2DA30 /* hula.mp4 */,
+				FAE7CD6E22497AB200A2DA30 /* trippy.mp4 */,
 				FA30DB9D21D9C97200A85EA1 /* DrBuzzTimer */,
 				FA30DB9C21D9C97200A85EA1 /* Products */,
 			);
@@ -96,10 +93,10 @@
 		FA30DB9D21D9C97200A85EA1 /* DrBuzzTimer */ = {
 			isa = PBXGroup;
 			children = (
-				FA02F01721E1974C00D64D4E /* MainViewController */,
-				FA30DB9E21D9C97200A85EA1 /* AppDelegate.swift */,
 				FA30DBA221D9C97200A85EA1 /* Main.storyboard */,
 				FA30DBA521D9C97300A85EA1 /* Assets.xcassets */,
+				FA02F01721E1974C00D64D4E /* MainViewController */,
+				FA30DB9E21D9C97200A85EA1 /* AppDelegate.swift */,
 				FA30DBA721D9C97300A85EA1 /* LaunchScreen.storyboard */,
 				FA30DBAA21D9C97300A85EA1 /* Info.plist */,
 			);
@@ -167,11 +164,8 @@
 			files = (
 				FA30DBA921D9C97300A85EA1 /* LaunchScreen.storyboard in Resources */,
 				FA30DBA621D9C97300A85EA1 /* Assets.xcassets in Resources */,
-				FA3DA92521E2E171003CD918 /* Snoop.mp4 in Resources */,
-				FA3DA92721E2F3C6003CD918 /* Napolean.mp4 in Resources */,
 				FA30DBA421D9C97200A85EA1 /* Main.storyboard in Resources */,
 				FA3DA92B21E2F5E0003CD918 /* Stripper.mp4 in Resources */,
-				FA3DA92921E2F51B003CD918 /* WillSmith.mp4 in Resources */,
 				FA3DA93121E2F77C003CD918 /* pinklady.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,8 +326,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2T6T9M8644;
+				DEVELOPMENT_TEAM = P7J2GV5KE5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
@@ -345,8 +340,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Burkes.DrBuzzTimer;
+				PRODUCT_BUNDLE_IDENTIFIER = Burkes.DrBuzzTimer.First;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -356,8 +352,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2T6T9M8644;
+				DEVELOPMENT_TEAM = P7J2GV5KE5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
@@ -369,8 +366,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Burkes.DrBuzzTimer;
+				PRODUCT_BUNDLE_IDENTIFIER = Burkes.DrBuzzTimer.First;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

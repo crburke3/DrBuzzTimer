@@ -13,9 +13,10 @@ import AVKit
 
 class TimerViewController: UIViewController {
     
-    let animArray = ["Snoop", "Napolean", "WillSmith", "Stripper", "pinklady"]
+    let animArray = ["Stripper", "pinklady", "trippy", "loopy", "hula"]
     
     
+    @IBOutlet var skipButton: UIButton!
     @IBOutlet var minView: UIView!
     @IBOutlet var secView: UIView!
     
@@ -27,8 +28,8 @@ class TimerViewController: UIViewController {
     var isTimerFinished = false
     
     weak var timer: Timer?
-    let startMin = 0
-    let startSec = 5
+    let startMin = 10
+    let startSec = 0
     var currMin = 0
     var currSec = 0
 
@@ -40,17 +41,21 @@ class TimerViewController: UIViewController {
         minView.layer.borderColor = UIColor.white.cgColor
         secView.layer.borderWidth = 1
         secView.layer.borderColor = UIColor.white.cgColor
+        timerButton.layer.cornerRadius = 10
+        timerButton.clipsToBounds = true
     }
     
     @IBAction func StartTimer(_ sender: Any) {
         if(!isTimerRunning){
             startTimer()
-            timerButton.setTitle("Pause Timer", for: .normal)
+            timerButton.setTitle("Pause", for: .normal)
             isTimerRunning = true
+            skipButton.isHidden = false
         }else{
             stopTimer()
-            timerButton.setTitle("Start Timer", for: .normal)
+            timerButton.setTitle("START NOW", for: .normal)
             isTimerRunning = false
+            skipButton.isHidden = true
         }
     }
     
@@ -70,6 +75,12 @@ class TimerViewController: UIViewController {
         }
     }
  */
+    
+    @IBAction func skipButton(_ sender: Any) {
+        self.currMin = 0
+        self.currSec = 5
+    }
+    
     
     func startTimer() {
         timer?.invalidate()   // just in case you had existing `Timer`, `invalidate` it before we lose our reference to it
