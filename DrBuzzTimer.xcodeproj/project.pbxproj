@@ -16,6 +16,9 @@
 		FA30DBB621D9D29600A85EA1 /* AlphaFramFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA30DBB521D9D29600A85EA1 /* AlphaFramFilter.swift */; };
 		FA3DA92B21E2F5E0003CD918 /* Stripper.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FA3DA92A21E2F5E0003CD918 /* Stripper.mp4 */; };
 		FA3DA93121E2F77C003CD918 /* pinklady.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FA3DA93021E2F77C003CD918 /* pinklady.mp4 */; };
+		FAE7CD7022497D1C00A2DA30 /* trippy.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAE7CD6F22497D1C00A2DA30 /* trippy.mp4 */; };
+		FAE7CD7222497D6F00A2DA30 /* hula.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAE7CD7122497D6F00A2DA30 /* hula.mp4 */; };
+		FAE7CD7422497D7500A2DA30 /* loopy.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FAE7CD7322497D7400A2DA30 /* loopy.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,9 +46,9 @@
 		FA30DBB521D9D29600A85EA1 /* AlphaFramFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaFramFilter.swift; sourceTree = "<group>"; };
 		FA3DA92A21E2F5E0003CD918 /* Stripper.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Stripper.mp4; sourceTree = "<group>"; };
 		FA3DA93021E2F77C003CD918 /* pinklady.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pinklady.mp4; sourceTree = "<group>"; };
-		FAE7CD6A22497A9400A2DA30 /* loopy.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = loopy.mp4; sourceTree = "<group>"; };
-		FAE7CD6B22497A9D00A2DA30 /* hula.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = hula.mp4; sourceTree = "<group>"; };
-		FAE7CD6E22497AB200A2DA30 /* trippy.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = trippy.mp4; sourceTree = "<group>"; };
+		FAE7CD6F22497D1C00A2DA30 /* trippy.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = trippy.mp4; sourceTree = "<group>"; };
+		FAE7CD7122497D6F00A2DA30 /* hula.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = hula.mp4; sourceTree = "<group>"; };
+		FAE7CD7322497D7400A2DA30 /* loopy.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = loopy.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +77,9 @@
 			children = (
 				FA3DA93021E2F77C003CD918 /* pinklady.mp4 */,
 				FA3DA92A21E2F5E0003CD918 /* Stripper.mp4 */,
-				FAE7CD6A22497A9400A2DA30 /* loopy.mp4 */,
-				FAE7CD6B22497A9D00A2DA30 /* hula.mp4 */,
-				FAE7CD6E22497AB200A2DA30 /* trippy.mp4 */,
+				FAE7CD6F22497D1C00A2DA30 /* trippy.mp4 */,
+				FAE7CD7322497D7400A2DA30 /* loopy.mp4 */,
+				FAE7CD7122497D6F00A2DA30 /* hula.mp4 */,
 				FA30DB9D21D9C97200A85EA1 /* DrBuzzTimer */,
 				FA30DB9C21D9C97200A85EA1 /* Products */,
 			);
@@ -162,11 +165,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE7CD7222497D6F00A2DA30 /* hula.mp4 in Resources */,
 				FA30DBA921D9C97300A85EA1 /* LaunchScreen.storyboard in Resources */,
 				FA30DBA621D9C97300A85EA1 /* Assets.xcassets in Resources */,
+				FAE7CD7422497D7500A2DA30 /* loopy.mp4 in Resources */,
 				FA30DBA421D9C97200A85EA1 /* Main.storyboard in Resources */,
 				FA3DA92B21E2F5E0003CD918 /* Stripper.mp4 in Resources */,
 				FA3DA93121E2F77C003CD918 /* pinklady.mp4 in Resources */,
+				FAE7CD7022497D1C00A2DA30 /* trippy.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

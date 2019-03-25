@@ -13,7 +13,7 @@ import AVKit
 
 class TimerViewController: UIViewController {
     
-    let animArray = ["Stripper", "pinklady", "trippy", "loopy", "hula"]
+    let animArray = ["trippy", "pinklady", "Stripper", "loopy", "hula"]
     
     
     @IBOutlet var skipButton: UIButton!
@@ -28,7 +28,7 @@ class TimerViewController: UIViewController {
     var isTimerFinished = false
     
     weak var timer: Timer?
-    let startMin = 10
+    let startMin = 20
     let startSec = 0
     var currMin = 0
     var currSec = 0
