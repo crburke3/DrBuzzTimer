@@ -21,10 +21,10 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiscoBackground" translatesAutoresizingMaskIntoConstraints="NO" id="WBu-X5-nqr">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DrBuzzLogo" translatesAutoresizingMaskIntoConstraints="NO" id="5e1-PO-1Id">
-                                <rect key="frame" x="30" y="7" width="315" height="315"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DrBuzzLogo2" translatesAutoresizingMaskIntoConstraints="NO" id="5e1-PO-1Id">
+                                <rect key="frame" x="14" y="90" width="347" height="175"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="5e1-PO-1Id" secondAttribute="height" multiplier="1:1" id="j9b-s1-c8I"/>
+                                    <constraint firstAttribute="width" secondItem="5e1-PO-1Id" secondAttribute="height" multiplier="331:167" id="3AH-2n-sNC"/>
                                 </constraints>
                             </imageView>
                         </subviews>
@@ -32,11 +32,12 @@
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="WBu-X5-nqr" secondAttribute="bottom" id="3cK-1y-hep"/>
                             <constraint firstItem="WBu-X5-nqr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6JP-I0-1W2"/>
+                            <constraint firstItem="5e1-PO-1Id" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="FGu-D2-x1H"/>
                             <constraint firstItem="WBu-X5-nqr" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="ThW-fs-Xin"/>
                             <constraint firstItem="WBu-X5-nqr" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="X2I-JN-flh"/>
-                            <constraint firstItem="5e1-PO-1Id" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="7" id="ddy-yv-VtM"/>
-                            <constraint firstItem="5e1-PO-1Id" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="opB-Wp-i0f"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5e1-PO-1Id" secondAttribute="trailing" constant="30" id="zxv-5h-jnT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5e1-PO-1Id" secondAttribute="trailing" constant="14" id="bpz-yb-baM"/>
+                            <constraint firstItem="5e1-PO-1Id" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="14" id="uxx-u9-7rY"/>
+                            <constraint firstItem="5e1-PO-1Id" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="wee-ph-kll"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -48,6 +49,6 @@
     </scenes>
     <resources>
         <image name="DiscoBackground" width="780" height="1200"/>
-        <image name="DrBuzzLogo" width="1000" height="1000"/>
+        <image name="DrBuzzLogo2" width="1000.0800170898438" height="499.92001342773438"/>
     </resources>
 </document>

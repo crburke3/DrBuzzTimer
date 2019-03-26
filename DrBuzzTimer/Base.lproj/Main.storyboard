@@ -32,12 +32,6 @@
                                     <action selector="StartTimer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BeM-ih-J3v"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DrBuzzLogo" translatesAutoresizingMaskIntoConstraints="NO" id="w81-Rv-sHq">
-                                <rect key="frame" x="31.666666666666657" y="20" width="350.66666666666674" height="336.66666666666669"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="w81-Rv-sHq" secondAttribute="height" multiplier="315:302" id="YU8-0g-lbJ"/>
-                                </constraints>
-                            </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U8f-S4-qel" userLabel="MinsView">
                                 <rect key="frame" x="105" y="373.66666666666669" width="84" height="99"/>
                                 <subviews>
@@ -116,22 +110,29 @@
                                     <action selector="skipButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YxD-pG-T5w"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DrBuzzLogo2" translatesAutoresizingMaskIntoConstraints="NO" id="w81-Rv-sHq">
+                                <rect key="frame" x="14" y="130" width="386" height="129.66666666666663"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="w81-Rv-sHq" secondAttribute="height" multiplier="387:130" id="OY6-AF-hHR"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="9sc-Tb-Lto" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0aN-fx-ISJ"/>
                             <constraint firstItem="5SA-vV-nBi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2GC-Z7-956"/>
-                            <constraint firstItem="w81-Rv-sHq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="5a4-ba-xfk"/>
+                            <constraint firstItem="U8f-S4-qel" firstAttribute="top" secondItem="w81-Rv-sHq" secondAttribute="bottom" constant="114" id="Hcn-LX-7hH"/>
                             <constraint firstItem="5SA-vV-nBi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="69" id="Ize-Rz-zkH"/>
                             <constraint firstItem="XfO-AM-qjA" firstAttribute="centerX" secondItem="5SA-vV-nBi" secondAttribute="centerX" constant="60" id="KLf-jw-st1"/>
                             <constraint firstItem="5SA-vV-nBi" firstAttribute="top" secondItem="U8f-S4-qel" secondAttribute="bottom" constant="36" id="Op8-Nr-VdA"/>
                             <constraint firstItem="w81-Rv-sHq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QqJ-Tc-eQM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="w81-Rv-sHq" secondAttribute="trailing" constant="14" id="TZZ-FM-VQF"/>
                             <constraint firstItem="9sc-Tb-Lto" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="UrU-FX-NWE"/>
+                            <constraint firstItem="w81-Rv-sHq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="14" id="XBV-S0-ZZS"/>
                             <constraint firstItem="5SA-vV-nBi" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="170" id="YAR-lT-K3q"/>
                             <constraint firstAttribute="bottom" secondItem="9sc-Tb-Lto" secondAttribute="bottom" id="YIY-h7-9Mx"/>
                             <constraint firstItem="U8f-S4-qel" firstAttribute="centerX" secondItem="5SA-vV-nBi" secondAttribute="centerX" constant="-60" id="buo-Ub-4UO"/>
                             <constraint firstItem="9sc-Tb-Lto" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="ci3-7d-Bb1"/>
-                            <constraint firstItem="5SA-vV-nBi" firstAttribute="top" secondItem="w81-Rv-sHq" secondAttribute="bottom" constant="152" id="gdr-6O-xNK"/>
                             <constraint firstItem="hCr-rw-vya" firstAttribute="top" secondItem="5SA-vV-nBi" secondAttribute="bottom" constant="8" id="hxa-IL-yGt"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5SA-vV-nBi" secondAttribute="trailing" constant="69" id="kV7-lN-ZcF"/>
                             <constraint firstItem="5SA-vV-nBi" firstAttribute="top" secondItem="XfO-AM-qjA" secondAttribute="bottom" constant="36" id="qb9-RF-QeL"/>
@@ -151,12 +152,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="106.59670164917542"/>
+            <point key="canvasLocation" x="136.23188405797103" y="105.97826086956522"/>
         </scene>
     </scenes>
     <resources>
         <image name="1" width="852" height="480"/>
         <image name="DiscoBackground" width="780" height="1200"/>
-        <image name="DrBuzzLogo" width="1000" height="1000"/>
+        <image name="DrBuzzLogo2" width="1000.0800170898438" height="499.92001342773438"/>
     </resources>
 </document>

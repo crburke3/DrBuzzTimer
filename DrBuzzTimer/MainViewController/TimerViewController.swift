@@ -97,7 +97,7 @@ class TimerViewController: UIViewController {
                         self!.playAnimation(name: self!.animArray[randNumber])
                     }
                     self!.isTimerFinished = true
-                    skipButton.isHidden = true
+                    self!.skipButton.isHidden = true
                     return
                 }
                 self!.currMin -= 1
